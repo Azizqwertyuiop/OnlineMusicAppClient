@@ -1,13 +1,13 @@
 package com.example.onlinemusicappclient;
 
+import android.annotation.SuppressLint;
+import android.app.ProgressDialog;
+import android.os.Bundle;
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
-import android.annotation.SuppressLint;
-import android.app.ProgressDialog;
-import android.os.Bundle;
 
 import com.example.onlinemusicappclient.Adapter.RecyclerViewAdapter;
 import com.example.onlinemusicappclient.Model.Upload;
